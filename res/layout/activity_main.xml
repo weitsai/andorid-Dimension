@@ -5,11 +5,23 @@
     android:orientation="vertical"
     tools:context=".MainActivity" >
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="請輸入值:" />
+
     <EditText
         android:id="@+id/input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="number" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="(下方字體會依照輸入的值改變為當前裝置的像素)" />
 
     <TextView
         android:id="@+id/request"
@@ -21,6 +33,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="submit"
+        android:paddingTop="10dp"
         android:text="submit" />
 
 </LinearLayout>
