@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="type">
+        <item>請選擇輸入值的單位</item>
+        <item>dp</item>
+        <item>px</item>
+        <item>sp</item>
+    </string-array>
+
+</resources>
