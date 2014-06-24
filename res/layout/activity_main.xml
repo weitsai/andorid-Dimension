@@ -5,6 +5,12 @@
     android:orientation="vertical"
     tools:context=".MainActivity" >
 
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
